@@ -1,1 +1,17 @@
-r
+import capos.*
+
+describe "Rolando" {
+  test "rolando recolecta todos los artefactos" {
+    //COLECCIONES
+
+    rolando.recolecta(espadaDelDestino)
+    rolando.recolecta(libroDeHechizos)
+    rolando.recolecta(collarDivino)
+    rolando.recolecta(armaduraDeAceroValyrio)
+    
+    assert.that(rolando.tieneEnMochila(espadaDelDestino))
+    assert.that(rolando.tieneEnMochila(libroDeHechizos))
+    assert.that(rolando.tieneEnMochila(collarDivino))
+    assert.that(rolando.tieneEnMochila(armaduraDeAceroValyrio))
+  }
+}
