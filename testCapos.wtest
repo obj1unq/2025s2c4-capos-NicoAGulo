@@ -1,1 +1,15 @@
-r
+describe "Rolando" {
+  test "rolando recolecta todos los artefactos" {
+    //COLECCIONES
+
+    rolando.recolecta(espadaDelDestino)
+    rolando.recolecta(libroDeHechizos)
+    rolando.recolecta(collarDivino)
+    rolando.recolecta(armaduraDeAceroValyrio)
+    
+    rolando.tieneEnMochila(espadaDelDestino)
+    rolando.tieneEnMochila(libroDeHechizos)
+    rolando.tieneEnMochila(collarDivino)
+    rolando.tieneEnMochila(armaduraDeAceroValyrio)
+  }
+}
